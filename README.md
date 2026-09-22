@@ -66,9 +66,11 @@ Se contrastaron tres especificaciones candidatas en la muestra de entrenamiento:
 Aunque el Modelo 2 presentó un MAPE marginalmente inferior, se seleccionó el **Modelo 3** en virtud del **principio de parsimonia**, minimización estricta del criterio bayesiano (BIC) y la confirmación algorítmica mediante `auto_arima`.
 
 **Ecuación estimada del modelo final ($T = 271$):**
+
 $$(1 - B)(1 - B^{12}) y_t = (1 - 0.2449 B)(1 - 0.7834 B^{12}) \hat{\varepsilon}_t$$
 
 Forma recursiva en niveles:
+
 $$y_t = y_{t-1} + y_{t-12} - y_{t-13} + \hat{\varepsilon}_t - 0.2449 \hat{\varepsilon}_{t-1} - 0.7834 \hat{\varepsilon}_{t-12} + 0.1919 \hat{\varepsilon}_{t-13}$$
 
 ### 3. Diagnosis Residual
