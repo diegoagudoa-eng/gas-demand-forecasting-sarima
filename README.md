@@ -117,7 +117,7 @@ pip install -r requirements.txt
 #### 3. Abrir y ejecutar el notebook
 
 ```bash
-jupyter notebook gas_demand_sarima.ipynb
+jupyter notebook notebook/gas_demand_forecasting.ipynb
 ```
 ---
 
