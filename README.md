@@ -41,13 +41,7 @@ El flujo de trabajo sigue rigurosamente el proceso econométrico formal:
 * **División de datos:**
   * **Entrenamiento (Train):** 259 meses (enero 2004 – julio 2025).
   * **Validación fuera de muestra (Test):** 12 meses (agosto 2025 – julio 2026).
- 
-<p align="center">
-  <img src="figures/gas_serie_historica.png" alt="Serie Histórica" width="60%">
-  <br>
-  <em>Figura 1: Demanda mensual agregada de gas natural en España (enero 2004 – julio 2026). Fuente: CORES.</em>
-</p>
-    
+       
 ---
 
 ## 🔬 Flujo Metodológico
