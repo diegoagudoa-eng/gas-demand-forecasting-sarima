@@ -42,8 +42,11 @@ El flujo de trabajo sigue rigurosamente el proceso econométrico formal:
   * **Entrenamiento (Train):** 259 meses (enero 2004 – julio 2025).
   * **Validación fuera de muestra (Test):** 12 meses (agosto 2025 – julio 2026).
  
- ![Serie Histórica de Demanda de Gas](figures/gas_serie_historica.png)
-*Figura 1: Demanda mensual agregada de gas natural en España (enero 2004 – julio 2026). Fuente: CORES.*
+<p align="center">
+  <img src="figures/gas_serie_historica.png" alt="Serie Histórica" width="60%">
+  <br>
+  <em>Figura 1: Demanda mensual agregada de gas natural en España (enero 2004 – julio 2026). Fuente: CORES.</em>
+</p>
     
 ---
 
@@ -91,8 +94,6 @@ El modelo proyecta el comportamiento cíclico del sistema gasista para el siguie
 * **Pico invernal:** Enero de 2027 ($35.019,72\text{ GWh}$).
 * **Valles estivales:** Mínimos en torno a $24.900\text{ GWh}$ en primavera/verano.
 * **Gestión del riesgo:** Las bandas de confianza al 95% incorporan la acumulación paulatina del error de pronóstico típica de los modelos integrados ($d=1, D=1$), oscilando entre $14.000$ y $43.000\text{ GWh}$ hacia el final del horizonte.
-
-Proyección de Demanda (Horizonte $h = 12$):
 
 ![Previsión de Consumo de Gas](figures/gas_forecast_sarima.png)
 
