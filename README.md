@@ -41,6 +41,9 @@ El flujo de trabajo sigue rigurosamente el proceso econométrico formal:
 * **División de datos:**
   * **Entrenamiento (Train):** 259 meses (enero 2004 – julio 2025).
   * **Validación fuera de muestra (Test):** 12 meses (agosto 2025 – julio 2026).
+ 
+ ![Serie Histórica de Demanda de Gas](figures/gas_serie_historica.png)
+*Figura 1: Demanda mensual agregada de gas natural en España (enero 2004 – julio 2026). Fuente: CORES.*
     
 ---
 
@@ -95,7 +98,6 @@ Proyección de Demanda (Horizonte $h = 12$):
 
 *El modelo proyecta la demanda mensual (agosto 2026 – julio 2027) capturando la fuerte estacionalidad invernal histórica. La banda sombreada representa el intervalo de confianza al 95%, reflejando la dilatación natural de la incertidumbre en horizontes acumulados.*
 
----
 ---
 
 ## ⚠️ Limitaciones Metodológicas y Operativas
