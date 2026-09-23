@@ -88,12 +88,10 @@ El modelo proyecta el comportamiento cíclico del sistema gasista para el siguie
 * **Pico invernal:** Enero de 2027 ($35.019,72\text{ GWh}$).
 * **Valles estivales:** Mínimos en torno a $24.900\text{ GWh}$ en primavera/verano.
 * **Gestión del riesgo:** Las bandas de confianza al 95% incorporan la acumulación paulatina del error de pronóstico típica de los modelos integrados ($d=1, D=1$), oscilando entre $14.000$ y $43.000\text{ GWh}$ hacia el final del horizonte.
-* 
----
 
-## 📈 Proyección de Demanda (Horizonte $h = 12$)
+Proyección de Demanda (Horizonte $h = 12$):
 
-![figures/Previsión de Consumo de Gas](gas_forecast_sarima.png)
+![Previsión de Consumo de Gas](figures/gas_forecast_sarima.png)
 
 *El modelo proyecta la demanda mensual (agosto 2026 – julio 2027) capturando la fuerte estacionalidad invernal histórica. La banda sombreada representa el intervalo de confianza al 95%, reflejando la dilatación natural de la incertidumbre en horizontes acumulados.*
 
