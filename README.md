@@ -93,7 +93,7 @@ El modelo proyecta el comportamiento cíclico del sistema gasista para el siguie
 
 ## 📈 Proyección de Demanda (Horizonte $h = 12$)
 
-![Previsión de Consumo de Gas](gas_forecast_sarima.png)
+![figures/Previsión de Consumo de Gas](gas_forecast_sarima.png)
 
 *El modelo proyecta la demanda mensual (agosto 2026 – julio 2027) capturando la fuerte estacionalidad invernal histórica. La banda sombreada representa el intervalo de confianza al 95%, reflejando la dilatación natural de la incertidumbre en horizontes acumulados.*
 
