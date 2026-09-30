@@ -188,7 +188,7 @@ Tras descontar los 13 períodos iniciales asociados al transitorio del filtro ($
 El modelo proyecta el siguiente ciclo operativo anual anticipando la estacionalidad del mercado español:
 * **Pico invernal:** Enero de 2027 ($35\,019.72\text{ GWh}$).
 * **Valles estivales:** Demanda estabilizada en torno a $24\,900\text{ GWh}$ en los meses cálidos.
-* **Cuantificación de incertidumbre por *Bootstrap*:** Se realizaron $1\,000$ simulaciones condicionales de trayectorias con reemplazo fijadas de forma reproducible (`random_state=rng`). Los intervalos de predicción empíricos (percentiles 2.5 y 97.5) delimitan un rango prospectivo que abarca desde $11\,366\text{ GWh}$ en valles hasta $45\,442\text{ GWh}$ en el pico invernal, protegiendo las previsiones contra la infravaloración del riesgo de cola.
+* **Cuantificación de incertidumbre por *Bootstrap*:** Se realizaron $1\,000$ simulaciones condicionales de trayectorias con reemplazo fijadas de forma reproducible (`random_state=rng`). Los intervalos de predicción empíricos (percentiles 2.5 y 97.5) delimitan un rango prospectivo que abarca desde $12\,301\text{ GWh}$ en valles hasta $46\,529\text{ GWh}$ al final de las predicciones, protegiendo las previsiones contra la infravaloración del riesgo de cola.
 
 ![Previsión de Consumo de Gas](figures/gas_forecast_sarima.png)
 
